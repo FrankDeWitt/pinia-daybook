@@ -1,15 +1,18 @@
 <script lang="ts">
-  import { defineComponent, defineAsyncComponent, ref } from 'vue'
+  import { defineComponent, ref, computed } from 'vue'
+  import { useStore } from '../stores/entries'
 
   export default defineComponent({
-    components: {
-      Entry: defineAsyncComponent(() => import('./Entry.vue')),
-    },
     setup() {
+      const store = useStore()
+      const entries = computed(() => {
+        return store.getEntries(term.value)
+      })
       const term = ref('')
 
       return {
         term,
+        entries,
       }
     },
   })
@@ -37,7 +40,7 @@
       </button>
     </div>
     <div class="p-3 overflow-y-scroll">
-      <Entry v-for="(entry, idx) in 5" :key="idx" :entry="entry" />
+      <DaybookEntry v-for="entry in entries" :key="entry.id" :entry="entry" />
     </div>
   </div>
 </template>

@@ -7,7 +7,6 @@
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "lint:script": "eslint --ext .ts,vue --ignore-path .gitignore .",
-    "lint:style": "stylelint src/**/*.{css,scss,vue}",
     "lint:markup": "vue-tsc --noEmit"
   },
   "husky": {
@@ -21,6 +20,7 @@
     "*": "prettier -w -u"
   },
   "dependencies": {
+    "axios": "^0.26.1",
     "pinia": "^2.0.12",
     "unplugin-vue-components": "^0.18.5",
     "vue": "^3.2.25",

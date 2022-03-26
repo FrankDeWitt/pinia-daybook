@@ -15,6 +15,20 @@ const routes = [
             '@/views/NoEntrySelected.vue'
           ),
       },
+      {
+        name: 'entry',
+        path: ':id',
+        component: () =>
+          import(
+            /* webpackChunkName: "EntryView" */
+            '@/views/EntryView.vue'
+          ),
+        props: (route: any) => {
+          return {
+            id: route.params.id,
+          }
+        },
+      },
     ],
   },
 ]

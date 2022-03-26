@@ -1,14 +1,18 @@
 <script lang="ts">
-  import { defineComponent, defineAsyncComponent } from 'vue'
+  import { defineComponent, onMounted } from 'vue'
+  import { useStore } from '../stores/entries'
 
   export default defineComponent({
-    components: {
-      DaybookNavbar: defineAsyncComponent(
-        () => import('@/components/DaybookNavbar.vue')
-      ),
-    },
     setup() {
-      return {}
+      const store = useStore()
+
+      onMounted(() => {
+        store.fetchEntries()
+      })
+
+      return {
+        store,
+      }
     },
   })
 </script>
@@ -18,6 +22,7 @@
   <div class="flex">
     <div class="w-1/3">
       <div
+        v-if="store.isLoading"
         class="overflow-y-scroll border-r border-gray-500 border-solid entry-scroll-area"
       >
         <div class="p-3 space-y-4">
@@ -63,13 +68,15 @@
           </div>
         </div>
       </div>
-      <!-- <div v-else>
-        <EntryList />
-      </div> -->
+      <div v-else>
+        <DaybookEntryList />
+      </div>
     </div>
     <div class="w-2/3">
-      <!-- <div v-if="isLoading" class="flex items-center justify-center h-full"> -->
-      <div class="flex items-center justify-center h-full">
+      <div
+        v-if="store.isLoading"
+        class="flex items-center justify-center h-full"
+      >
         <svg
           role="status"
           class="inline w-12 h-12 mr-2 text-gray-200 animate-spin dark:text-gray-600 fill-primary-700"
@@ -87,7 +94,7 @@
           />
         </svg>
       </div>
-      <!-- <router-view v-else /> -->
+      <router-view v-else />
     </div>
   </div>
 </template>
