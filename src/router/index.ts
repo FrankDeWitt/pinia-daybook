@@ -2,11 +2,21 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
   {
+    name: 'home',
     path: '/',
-    name: 'Home',
     component: () => import(
       '@/layouts/DayBookLayout.vue'
     ),
+    children: [
+      {
+        name: 'no-entry',
+        path: '',
+        component: () => import(
+          /* webpackChunkName: "NoEntrySelected" */
+          '@/views/NoEntrySelected.vue'
+        ),
+      }
+    ],
   },
 ];
 
