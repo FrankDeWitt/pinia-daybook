@@ -1,33 +1,28 @@
 <script lang="ts">
-import { 
-  defineComponent, 
-  defineAsyncComponent, 
-  computed, 
-  ref 
-} from 'vue';
+  import { defineComponent, defineAsyncComponent, ref } from 'vue'
 
-export default defineComponent({
-  components: {
-    Entry: defineAsyncComponent(() => import('./Entry.vue')),
-  },
-  setup() {
-    const term = ref('');
+  export default defineComponent({
+    components: {
+      Entry: defineAsyncComponent(() => import('./Entry.vue')),
+    },
+    setup() {
+      const term = ref('')
 
-    return {
-      term,
-    };
-  },
-});
+      return {
+        term,
+      }
+    },
+  })
 </script>
 
 <template>
   <div class="border-r border-gray-500 border-solid entry-scroll-area">
     <div class="p-3 space-y-4">
       <input
+        v-model="term"
         class="w-full p-3 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
         type="text"
         placeholder="Buscar entradas"
-        v-model="term"
       />
       <button
         class="w-full px-4 py-2 font-bold text-white transition-all rounded bg-secondary-700 hover:bg-primary-700"
@@ -36,7 +31,7 @@ export default defineComponent({
           class="flex items-center justify-center space-x-4"
           :to="{ name: 'entry', params: { id: 'new' } }"
         >
-          <i class="fa-solid fa-circle-plus"></i>
+          <i class="fa-solid fa-circle-plus" />
           <p>Añadir una entrada</p>
         </router-link>
       </button>

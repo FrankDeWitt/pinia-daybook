@@ -4,12 +4,17 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
+    DaybookEntryList: typeof import('./src/components/DaybookEntryList.vue')['default']
+    DaybookNavbar: typeof import('./src/components/DaybookNavbar.vue')['default']
     EntryList: typeof import('./src/components/EntryList.vue')['default']
+    ICarbonAccessibility: typeof import('~icons/carbon/accessibility')['default']
     IFaSolidCirclePlus: typeof import('~icons/fa-solid/circle-plus')['default']
     IFaSolidPlusCircle: typeof import('~icons/fa-solid/plus-circle')['default']
     IFaSolidSignOutAlt: typeof import('~icons/fa-solid/sign-out-alt')['default']
+    IMdiAccountBox: typeof import('~icons/mdi/account-box')['default']
+    IMdiAccountChild: typeof import('~icons/mdi/account-child')['default']
     Navbar: typeof import('./src/components/Navbar.vue')['default']
   }
 }
 
-export { }
+export {}

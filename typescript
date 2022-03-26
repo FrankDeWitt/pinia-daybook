@@ -1,0 +1,212 @@
+Script started on Sat Mar 26 14:40:42 2022
+]7;file://MBP-de-Fran.lan/Users/franjsalvador/code/pinia-daybook[1m[7m%[27m[1m[0m                                                                                                       ]7;file://MBP-de-Fran.lan/Users/franjsalvador/code/pinia-daybook]2;franjsalvador@MBP-de-Fran]1;..pinia-daybook]7;file://MBP-de-Fran.lan/Users/franjsalvador/code/pinia-daybook]697;SSH=0]697;Docker=0]697;Dir=/Users/franjsalvador/code/pinia-daybook]697;Shell=zsh]697;PID=45256]697;SessionId=7DF47F79-588D-49E5-917F-F2D397CDCF7A]697;ExitCode=0]697;TTY=/dev/ttys005]697;Log=]697;ZshAutosuggestionColor=]697;Hostname=franjsalvador@MBP-de-Fran.lan[0m[27m[24m[J]697;StartPrompt
+[37m[14:40:42][00m [31mfranjsalvador[00m ➜ [35m~/code/pinia-daybook[00m ➜ [32mmain [31m✗[00m[00m 
+[33m>[00m ]697;EndPrompt]697;NewCmd[K[74C]697;StartPrompt[1A[37m[[33mbcbb4be[37m] [31m[00m 14:40[1B]697;EndPrompt[90D[?1h=[?2004hyyarn run lint:script[?1l>[?2004l
+]697;PreExec]2;yarn run lint:script]1;yarn[2K[1G[1myarn run v1.22.17[22m
+[2K[1G[2m$ eslint --ext .ts,vue --ignore-path .gitignore .[22m
+
+Oops! Something went wrong! :(
+
+ESLint: 8.12.0
+
+ESLint couldn't find the config "@vue/prettier/@typescript-eslint" to extend from. Please check that the name of the config is correct.
+
+The config "@vue/prettier/@typescript-eslint" was referenced from the config file in "/Users/franjsalvador/code/pinia-daybook/.eslintrc".
+
+If you still have problems, please stop by https://eslint.org/chat/help to chat with the team.
+
+[2K[1G[31merror[39m Command failed with exit code 2.
+[2K[1G[34minfo[39m Visit [1mhttps://yarnpkg.com/en/docs/cli/run[22m for documentation about this command.
+[1m[7m%[27m[1m[0m                                                                                                       ]7;file://MBP-de-Fran.lan/Users/franjsalvador/code/pinia-daybook]2;franjsalvador@MBP-de-Fran]1;..pinia-daybook]7;file://MBP-de-Fran.lan/Users/franjsalvador/code/pinia-daybook]697;SSH=0]697;Docker=0]697;Dir=/Users/franjsalvador/code/pinia-daybook]697;Shell=zsh]697;PID=45256]697;SessionId=7DF47F79-588D-49E5-917F-F2D397CDCF7A]697;ExitCode=2]697;TTY=/dev/ttys005]697;Log=]697;ZshAutosuggestionColor=]697;Hostname=franjsalvador@MBP-de-Fran.lan[0m[27m[24m[J]697;StartPrompt
+[37m[14:40:49][00m [31mfranjsalvador[00m ➜ [35m~/code/pinia-daybook[00m ➜ [32mmain [31m✗[00m[00m 
+[33m>[00m ]697;EndPrompt]697;NewCmd[K[73C]697;StartPrompt[1A[37m[[33mbcbb4be[37m] [31m⍉[00m 14:40[1B]697;EndPrompt[90D[?1h=[?2004h[7myarn add -D prettier eslint-plugin-prettier @vue/eslint-config-prettier[27m
+[K[A[12C[27my[27ma[27mr[27mn[27m [27ma[27md[27md[27m [27m-[27mD[27m [27mp[27mr[27me[27mt[27mt[27mi[27me[27mr[27m [27me[27ms[27ml[27mi[27mn[27mt[27m-[27mp[27ml[27mu[27mg[27mi[27mn[27m-[27mp[27mr[27me[27mt[27mt[27mi[27me[27mr[27m [27m@[27mv[27mu[27me[27m/[27me[27ms[27ml[27mi[27mn[27mt[27m-[27mc[27mo[27mn[27mf[27mi[27mg[27m-[27mp[27mr[27me[27mt[27mt[27mi[27me[27mr[1B[K[K[A[83C                                                                y  cclear[?1l>[?2004l[1B]697;PreExec]2;clear]1;clear[H[2J[1m[7m%[27m[1m[0m                                                                                                       ]7;file://MBP-de-Fran.lan/Users/franjsalvador/code/pinia-daybook]2;franjsalvador@MBP-de-Fran]1;..pinia-daybook]7;file://MBP-de-Fran.lan/Users/franjsalvador/code/pinia-daybook]697;SSH=0]697;Docker=0]697;Dir=/Users/franjsalvador/code/pinia-daybook]697;Shell=zsh]697;PID=45256]697;SessionId=7DF47F79-588D-49E5-917F-F2D397CDCF7A]697;ExitCode=0]697;TTY=/dev/ttys005]697;Log=]697;ZshAutosuggestionColor=]697;Hostname=franjsalvador@MBP-de-Fran.lan[0m[27m[24m[J]697;StartPrompt
+[37m[14:42:34][00m [31mfranjsalvador[00m ➜ [35m~/code/pinia-daybook[00m ➜ [32mmain [31m✗[00m[00m 
+[33m>[00m ]697;EndPrompt]697;NewCmd[K[74C]697;StartPrompt[1A[37m[[33mbcbb4be[37m] [31m[00m 14:42[1B]697;EndPrompt[90D[?1h=[?2004h[7myarn add -D prettier eslint-plugin-prettier @vue/eslint-config-prettier[27m
+[K[A[12C[27my[27ma[27mr[27mn[27m [27ma[27md[27md[27m [27m-[27mD[27m [27mp[27mr[27me[27mt[27mt[27mi[27me[27mr[27m [27me[27ms[27ml[27mi[27mn[27mt[27m-[27mp[27ml[27mu[27mg[27mi[27mn[27m-[27mp[27mr[27me[27mt[27mt[27mi[27me[27mr[27m [27m@[27mv[27mu[27me[27m/[27me[27ms[27ml[27mi[27mn[27mt[27m-[27mc[27mo[27mn[27mf[27mi[27mg[27m-[27mp[27mr[27me[27mt[27mt[27mi[27me[27mr[1B[K[?1l>[?2004l
+]697;PreExec]2;yarn add -D prettier eslint-plugin-prettier @vue/eslint-config-prettier]1;yarn[2K[1G[1myarn add v1.22.17[22m
+[2K[1G[2m[1/4][22m 🔍  Resolving packages...
+[1G⠁ [0K[1G⠂ prettier[0K[1G⠄ prettier[0K[1G⡀ prettier[0K[1G⢀ prettier[0K[1G⠠ prettier[0K[1G⠐ prettier[0K[1G⠈ prettier[0K[1G⠁ prettier[0K[1G⠂ prettier[0K[1G⠄ prettier[0K[1G⡀ prettier[0K[1G⢀ prettier[0K[1G⠠ prettier[0K[1G⠐ prettier[0K[1G⠈ prettier[0K[1G⠁ prettier[0K[1G⠂ prettier[0K[1G⠄ prettier[0K[1G⡀ prettier[0K[1G⢀ eslint-plugin-prettier[0K[1G⠠ eslint-plugin-prettier[0K[1G⠐ eslint-plugin-prettier[0K[1G⠈ eslint-plugin-prettier[0K[1G⠁ eslint-plugin-prettier[0K[1G⠂ eslint-plugin-prettier[0K[1G⠄ eslint-plugin-prettier[0K[1G⡀ eslint-plugin-prettier[0K[1G⢀ eslint-plugin-prettier[0K[1G⠠ eslint-plugin-prettier[0K[1G⠐ eslint-plugin-prettier[0K[1G⠈ eslint-plugin-prettier[0K[1G⠁ eslint-plugin-prettier[0K[1G⠂ eslint-plugin-prettier[0K[1G⠄ @vue/eslint-config-prettier[0K[1G⡀ @vue/eslint-config-prettier[0K[1G⢀ @vue/eslint-config-prettier[0K[1G⠠ @vue/eslint-config-prettier[0K[1G⠐ @vue/eslint-config-prettier[0K[1G⠈ @vue/eslint-config-prettier[0K[1G⠁ @vue/eslint-config-prettier[0K[1G⠂ @vue/eslint-config-prettier[0K[1G⠄ @vue/eslint-config-prettier[0K[1G⡀ @vue/eslint-config-prettier[0K[1G⢀ @vue/eslint-config-prettier[0K[1G⠠ @vue/eslint-config-prettier[0K[1G⠐ @vue/eslint-config-prettier[0K[1G⠈ @vue/eslint-config-prettier[0K[1G⠁ @vue/eslint-config-prettier[0K[1G⠂ @vue/eslint-config-prettier[0K[1G⠄ @vue/eslint-config-prettier[0K[1G⡀ @vue/eslint-config-prettier[0K[1G⢀ @vue/eslint-config-prettier[0K[1G⠠ @vue/eslint-config-prettier[0K[1G⠐ @vue/eslint-config-prettier[0K[1G⠈ @vue/eslint-config-prettier[0K[1G⠁ @vue/eslint-config-prettier[0K[1G⠂ @vue/eslint-config-prettier[0K[1G⠄ @vue/eslint-config-prettier[0K[1G⡀ @vue/eslint-config-prettier[0K[1G⢀ @vue/eslint-config-prettier[0K[1G⠠ @vue/eslint-config-prettier[0K[2K[1G[2K[1G[2m[2/4][22m 🚚  Fetching packages...
+[2K[1G[1G[----------------------------------------------------------------------------------------------] 0/540[1G[#########################-------------------------------------------------------------------] 144/540[1G[############################################------------------------------------------------] 259/540[1G[#################################################################---------------------------] 379/540[1G[##########################################################################################--] 528/540[2K[1G[2m[3/4][22m 🔗  Linking dependencies...
+[1G[############################################################################################] 540/540[2K[1G[2K[1G[1G[----------------------------------------------------------------------------------------------] 0/523[2K[1G[2K[1G[1G[----------------------------------------------------------------------------------------------] 0/988[1G[#############################---------------------------------------------------------------] 310/988[1G[#######################################################################################-----] 932/988[2K[1G[2m[4/4][22m 🔨  Building fresh packages...
+[1B[1G[############################################################################################] 988/988[2K[1G[32msuccess[39m Saved 3 new dependencies.
+[2K[1G[34minfo[39m Direct dependencies
+[2K[1G├─ @vue/eslint-config-prettier@7.0.0
+├─ eslint-plugin-prettier@4.0.0
+└─ prettier@2.6.1
+[2K[1G[34minfo[39m All dependencies
+├─ @vue/eslint-config-prettier@7.0.0
+├─ eslint-plugin-prettier@4.0.0
+└─ prettier@2.6.1
+[2K[1G✨  Done in 5.24s.
+[1m[7m%[27m[1m[0m                                                                                                       ]7;file://MBP-de-Fran.lan/Users/franjsalvador/code/pinia-daybook]2;franjsalvador@MBP-de-Fran]1;..pinia-daybook]7;file://MBP-de-Fran.lan/Users/franjsalvador/code/pinia-daybook]697;SSH=0]697;Docker=0]697;Dir=/Users/franjsalvador/code/pinia-daybook]697;Shell=zsh]697;PID=45256]697;SessionId=7DF47F79-588D-49E5-917F-F2D397CDCF7A]697;ExitCode=0]697;TTY=/dev/ttys005]697;Log=]697;ZshAutosuggestionColor=]697;Hostname=franjsalvador@MBP-de-Fran.lan[0m[27m[24m[J]697;StartPrompt
+[37m[14:42:41][00m [31mfranjsalvador[00m ➜ [35m~/code/pinia-daybook[00m ➜ [32mmain [31m✗[00m[00m 
+[33m>[00m ]697;EndPrompt]697;NewCmd[K[74C]697;StartPrompt[1A[37m[[33mbcbb4be[37m] [31m[00m 14:42[1B]697;EndPrompt[90D[?1h=[?2004h[7myarn prettier -w -u .[27m
+[K[A[12C[27my[27ma[27mr[27mn[27m [27mp[27mr[27me[27mt[27mt[27mi[27me[27mr[27m [27m-[27mw[27m [27m-[27mu[27m [27m.[1B[K[?1l>[?2004l
+]697;PreExec]2;yarn prettier -w -u .]1;yarn[2K[1G[1myarn run v1.22.17[22m
+[2K[1G[2m$ /Users/franjsalvador/code/pinia-daybook/node_modules/.bin/prettier -w -u .[22m
+.eslintrc[2K[1G[90m.eslintrc[39m 47ms
+.prettierrc[2K[1G[90m.prettierrc[39m 26ms
+.vscode/extensions.json[2K[1G[90m.vscode/extensions.json[39m 2ms
+.vscode/settings.json[2K[1G[90m.vscode/settings.json[39m 3ms
+commitlint.config.js[2K[1G[90mcommitlint.config.js[39m 9ms
+components.d.ts[2K[1Gcomponents.d.ts 313ms
+index.html[2K[1G[90mindex.html[39m 34ms
+package.json[2K[1G[90mpackage.json[39m 6ms
+postcss.config.js[2K[1G[90mpostcss.config.js[39m 4ms
+README.md[2K[1G[90mREADME.md[39m 48ms
+src/App.vue[2K[1G[90msrc/App.vue[39m 4ms
+src/components/DaybookEntryList.vue[2K[1G[90msrc/components/DaybookEntryList.vue[39m 71ms
+src/components/DaybookNavbar.vue[2K[1G[90msrc/components/DaybookNavbar.vue[39m 6ms
+src/env.d.ts[2K[1G[90msrc/env.d.ts[39m 5ms
+src/index.css[2K[1G[90msrc/index.css[39m 3ms
+src/layouts/DayBookLayout.vue[2K[1G[90msrc/layouts/DayBookLayout.vue[39m 27ms
+src/main.ts[2K[1G[90msrc/main.ts[39m 9ms
+src/router/index.ts[2K[1G[90msrc/router/index.ts[39m 7ms
+src/store/index.ts[2K[1G[90msrc/store/index.ts[39m 4ms
+src/views/NoEntrySelected.vue[2K[1G[90msrc/views/NoEntrySelected.vue[39m 2ms
+tailwind.config.js[2K[1G[90mtailwind.config.js[39m 8ms
+tsconfig.json[2K[1G[90mtsconfig.json[39m 4ms
+tsconfig.node.json[2K[1G[90mtsconfig.node.json[39m 2ms
+vite.config.ts[2K[1G[90mvite.config.ts[39m 8ms
+[2K[1G✨  Done in 1.30s.
+[1m[7m%[27m[1m[0m                                                                                                       ]7;file://MBP-de-Fran.lan/Users/franjsalvador/code/pinia-daybook]2;franjsalvador@MBP-de-Fran]1;..pinia-daybook]7;file://MBP-de-Fran.lan/Users/franjsalvador/code/pinia-daybook]697;SSH=0]697;Docker=0]697;Dir=/Users/franjsalvador/code/pinia-daybook]697;Shell=zsh]697;PID=45256]697;SessionId=7DF47F79-588D-49E5-917F-F2D397CDCF7A]697;ExitCode=0]697;TTY=/dev/ttys005]697;Log=]697;ZshAutosuggestionColor=]697;Hostname=franjsalvador@MBP-de-Fran.lan[0m[27m[24m[J]697;StartPrompt
+[37m[14:43:08][00m [31mfranjsalvador[00m ➜ [35m~/code/pinia-daybook[00m ➜ [32mmain [31m✗[00m[00m 
+[33m>[00m ]697;EndPrompt]697;NewCmd[K[74C]697;StartPrompt[1A[37m[[33mbcbb4be[37m] [31m[00m 14:43[1B]697;EndPrompt[90D[?1h=[?2004hyarn prettier -w -u .
+[K[A[33C[16Dadd -D prettier eslint-plugin-prettier @vue/eslint-config-prettier[1B[K[A[83C[71Dclear                                                                  [1B[K[A[17Cyarn run lint:script[?1l>[?2004l[1B]697;PreExec]2;yarn run lint:script]1;yarn[2K[1G[1myarn run v1.22.17[22m
+[2K[1G[2m$ eslint --ext .ts,vue --ignore-path .gitignore .[22m
+
+Oops! Something went wrong! :(
+
+ESLint: 8.12.0
+
+ESLint couldn't find the config "stylelint-config-recommended" to extend from. Please check that the name of the config is correct.
+
+The config "stylelint-config-recommended" was referenced from the config file in "/Users/franjsalvador/code/pinia-daybook/.eslintrc".
+
+If you still have problems, please stop by https://eslint.org/chat/help to chat with the team.
+
+[2K[1G[31merror[39m Command failed with exit code 2.
+[2K[1G[34minfo[39m Visit [1mhttps://yarnpkg.com/en/docs/cli/run[22m for documentation about this command.
+[1m[7m%[27m[1m[0m                                                                                                       ]7;file://MBP-de-Fran.lan/Users/franjsalvador/code/pinia-daybook]2;franjsalvador@MBP-de-Fran]1;..pinia-daybook]7;file://MBP-de-Fran.lan/Users/franjsalvador/code/pinia-daybook]697;SSH=0]697;Docker=0]697;Dir=/Users/franjsalvador/code/pinia-daybook]697;Shell=zsh]697;PID=45256]697;SessionId=7DF47F79-588D-49E5-917F-F2D397CDCF7A]697;ExitCode=2]697;TTY=/dev/ttys005]697;Log=]697;ZshAutosuggestionColor=]697;Hostname=franjsalvador@MBP-de-Fran.lan[0m[27m[24m[J]697;StartPrompt
+[37m[14:43:21][00m [31mfranjsalvador[00m ➜ [35m~/code/pinia-daybook[00m ➜ [32mmain [31m✗[00m[00m 
+[33m>[00m ]697;EndPrompt]697;NewCmd[K[73C]697;StartPrompt[1A[37m[[33mbcbb4be[37m] [31m⍉[00m 14:43[1B]697;EndPrompt[90D[?1h=[?2004hyarn run lint:script[?1l>[?2004l
+]697;PreExec]2;yarn run lint:script]1;yarn[2K[1G[1myarn run v1.22.17[22m
+[2K[1G[2m$ eslint --ext .ts,vue --ignore-path .gitignore .[22m
+[0m[0m
+[0m[4m/Users/franjsalvador/code/pinia-daybook/src/components/DaybookEntryList.vue[24m[0m
+[0m  [2m21:7[22m   [33mwarning[39m  Disallow self-closing on HTML void elements (<input/>)  [2mvue/html-self-closing[22m[0m
+[0m  [2m40:40[22m  [33mwarning[39m  ':key' should be on a new line                          [2mvue/max-attributes-per-line[22m[0m
+[0m  [2m40:51[22m  [33mwarning[39m  ':entry' should be on a new line                        [2mvue/max-attributes-per-line[22m[0m
+[0m[0m
+[0m[4m/Users/franjsalvador/code/pinia-daybook/src/components/DaybookNavbar.vue[24m[0m
+[0m  [2m5:37[22m  [33mwarning[39m  ':to' should be on a new line                         [2mvue/max-attributes-per-line[22m[0m
+[0m  [2m6:7[22m   [33mwarning[39m  Disallow self-closing on HTML void elements (<img/>)  [2mvue/html-self-closing[22m[0m
+[0m[0m
+[0m[4m/Users/franjsalvador/code/pinia-daybook/src/layouts/DayBookLayout.vue[24m[0m
+[0m  [2m24:11[22m  [33mwarning[39m  Disallow self-closing on HTML void elements (<input/>)  [2mvue/html-self-closing[22m[0m
+[0m[0m
+[0m[33m[1m✖ 6 problems (0 errors, 6 warnings)[22m[39m[0m
+[0m[33m[1m[22m[39m[33m[1m  0 errors and 5 warnings potentially fixable with the `--fix` option.[22m[39m[0m
+[0m[33m[1m[22m[39m[0m
+[2K[1G✨  Done in 1.40s.
+[1m[7m%[27m[1m[0m                                                                                                       ]7;file://MBP-de-Fran.lan/Users/franjsalvador/code/pinia-daybook]2;franjsalvador@MBP-de-Fran]1;..pinia-daybook]7;file://MBP-de-Fran.lan/Users/franjsalvador/code/pinia-daybook]697;SSH=0]697;Docker=0]697;Dir=/Users/franjsalvador/code/pinia-daybook]697;Shell=zsh]697;PID=45256]697;SessionId=7DF47F79-588D-49E5-917F-F2D397CDCF7A]697;ExitCode=0]697;TTY=/dev/ttys005]697;Log=]697;ZshAutosuggestionColor=]697;Hostname=franjsalvador@MBP-de-Fran.lan[0m[27m[24m[J]697;StartPrompt
+[37m[14:43:40][00m [31mfranjsalvador[00m ➜ [35m~/code/pinia-daybook[00m ➜ [32mmain [31m✗[00m[00m 
+[33m>[00m ]697;EndPrompt]697;NewCmd[K[74C]697;StartPrompt[1A[37m[[33mbcbb4be[37m] [31m[00m 14:43[1B]697;EndPrompt[90D[?1h=[?2004hyarn run lint:script[?1l>[?2004l
+]697;PreExec]2;yarn run lint:script]1;yarn[2K[1G[1myarn run v1.22.17[22m
+[2K[1G[2m$ eslint --ext .ts,vue --ignore-path .gitignore .[22m
+[2K[1G✨  Done in 2.15s.
+[1m[7m%[27m[1m[0m                                                                                                       ]7;file://MBP-de-Fran.lan/Users/franjsalvador/code/pinia-daybook]2;franjsalvador@MBP-de-Fran]1;..pinia-daybook]7;file://MBP-de-Fran.lan/Users/franjsalvador/code/pinia-daybook]697;SSH=0]697;Docker=0]697;Dir=/Users/franjsalvador/code/pinia-daybook]697;Shell=zsh]697;PID=45256]697;SessionId=7DF47F79-588D-49E5-917F-F2D397CDCF7A]697;ExitCode=0]697;TTY=/dev/ttys005]697;Log=]697;ZshAutosuggestionColor=]697;Hostname=franjsalvador@MBP-de-Fran.lan[0m[27m[24m[J]697;StartPrompt
+[37m[14:46:17][00m [31mfranjsalvador[00m ➜ [35m~/code/pinia-daybook[00m ➜ [32mmain [31m✗[00m[00m 
+[33m>[00m ]697;EndPrompt]697;NewCmd[K[74C]697;StartPrompt[1A[37m[[33mbcbb4be[37m] [31m[00m 14:46[1B]697;EndPrompt[90D[?1h=[?2004hyarn run lint:script[?1l>[?2004l
+]697;PreExec]2;yarn run lint:script]1;yarn[2K[1G[1myarn run v1.22.17[22m
+[2K[1G[2m$ eslint --ext .ts,vue --ignore-path .gitignore .[22m
+
+Oops! Something went wrong! :(
+
+ESLint: 8.12.0
+
+ESLint couldn't find the config "@vue/prettier/@typescript-eslint" to extend from. Please check that the name of the config is correct.
+
+The config "@vue/prettier/@typescript-eslint" was referenced from the config file in "/Users/franjsalvador/code/pinia-daybook/.eslintrc".
+
+If you still have problems, please stop by https://eslint.org/chat/help to chat with the team.
+
+[2K[1G[31merror[39m Command failed with exit code 2.
+[2K[1G[34minfo[39m Visit [1mhttps://yarnpkg.com/en/docs/cli/run[22m for documentation about this command.
+[1m[7m%[27m[1m[0m                                                                                                       ]7;file://MBP-de-Fran.lan/Users/franjsalvador/code/pinia-daybook]2;franjsalvador@MBP-de-Fran]1;..pinia-daybook]7;file://MBP-de-Fran.lan/Users/franjsalvador/code/pinia-daybook]697;SSH=0]697;Docker=0]697;Dir=/Users/franjsalvador/code/pinia-daybook]697;Shell=zsh]697;PID=45256]697;SessionId=7DF47F79-588D-49E5-917F-F2D397CDCF7A]697;ExitCode=2]697;TTY=/dev/ttys005]697;Log=]697;ZshAutosuggestionColor=]697;Hostname=franjsalvador@MBP-de-Fran.lan[0m[27m[24m[J]697;StartPrompt
+[37m[14:46:36][00m [31mfranjsalvador[00m ➜ [35m~/code/pinia-daybook[00m ➜ [32mmain [31m✗[00m[00m 
+[33m>[00m ]697;EndPrompt]697;NewCmd[K[73C]697;StartPrompt[1A[37m[[33mbcbb4be[37m] [31m⍉[00m 14:46[1B]697;EndPrompt[90D[?1h=[?2004hyarn run lint:script[?1l>[?2004l
+]697;PreExec]2;yarn run lint:script]1;yarn[2K[1G[1myarn run v1.22.17[22m
+[2K[1G[2m$ eslint --ext .ts,vue --ignore-path .gitignore .[22m
+
+Oops! Something went wrong! :(
+
+ESLint: 8.12.0
+
+ESLint couldn't find the config "@vue/@typescript-eslint" to extend from. Please check that the name of the config is correct.
+
+The config "@vue/@typescript-eslint" was referenced from the config file in "/Users/franjsalvador/code/pinia-daybook/.eslintrc".
+
+If you still have problems, please stop by https://eslint.org/chat/help to chat with the team.
+
+[2K[1G[31merror[39m Command failed with exit code 2.
+[2K[1G[34minfo[39m Visit [1mhttps://yarnpkg.com/en/docs/cli/run[22m for documentation about this command.
+[1m[7m%[27m[1m[0m                                                                                                       ]7;file://MBP-de-Fran.lan/Users/franjsalvador/code/pinia-daybook]2;franjsalvador@MBP-de-Fran]1;..pinia-daybook]7;file://MBP-de-Fran.lan/Users/franjsalvador/code/pinia-daybook]697;SSH=0]697;Docker=0]697;Dir=/Users/franjsalvador/code/pinia-daybook]697;Shell=zsh]697;PID=45256]697;SessionId=7DF47F79-588D-49E5-917F-F2D397CDCF7A]697;ExitCode=2]697;TTY=/dev/ttys005]697;Log=]697;ZshAutosuggestionColor=]697;Hostname=franjsalvador@MBP-de-Fran.lan[0m[27m[24m[J]697;StartPrompt
+[37m[14:47:42][00m [31mfranjsalvador[00m ➜ [35m~/code/pinia-daybook[00m ➜ [32mmain [31m✗[00m[00m 
+[33m>[00m ]697;EndPrompt]697;NewCmd[K[73C]697;StartPrompt[1A[37m[[33mbcbb4be[37m] [31m⍉[00m 14:47[1B]697;EndPrompt[90D[?1h=[?2004hyarn run lint:script[?1l>[?2004l
+]697;PreExec]2;yarn run lint:script]1;yarn[2K[1G[1myarn run v1.22.17[22m
+[2K[1G[2m$ eslint --ext .ts,vue --ignore-path .gitignore .[22m
+
+Oops! Something went wrong! :(
+
+ESLint: 8.12.0
+
+ESLint couldn't find the config "stylelint-config-recommended" to extend from. Please check that the name of the config is correct.
+
+The config "stylelint-config-recommended" was referenced from the config file in "/Users/franjsalvador/code/pinia-daybook/.eslintrc".
+
+If you still have problems, please stop by https://eslint.org/chat/help to chat with the team.
+
+[2K[1G[31merror[39m Command failed with exit code 2.
+[2K[1G[34minfo[39m Visit [1mhttps://yarnpkg.com/en/docs/cli/run[22m for documentation about this command.
+[1m[7m%[27m[1m[0m                                                                                                       ]7;file://MBP-de-Fran.lan/Users/franjsalvador/code/pinia-daybook]2;franjsalvador@MBP-de-Fran]1;..pinia-daybook]7;file://MBP-de-Fran.lan/Users/franjsalvador/code/pinia-daybook]697;SSH=0]697;Docker=0]697;Dir=/Users/franjsalvador/code/pinia-daybook]697;Shell=zsh]697;PID=45256]697;SessionId=7DF47F79-588D-49E5-917F-F2D397CDCF7A]697;ExitCode=2]697;TTY=/dev/ttys005]697;Log=]697;ZshAutosuggestionColor=]697;Hostname=franjsalvador@MBP-de-Fran.lan[0m[27m[24m[J]697;StartPrompt
+[37m[14:48:04][00m [31mfranjsalvador[00m ➜ [35m~/code/pinia-daybook[00m ➜ [32mmain [31m✗[00m[00m 
+[33m>[00m ]697;EndPrompt]697;NewCmd[K[73C]697;StartPrompt[1A[37m[[33mbcbb4be[37m] [31m⍉[00m 14:48[1B]697;EndPrompt[90D[?1h=[?2004h[7myarn prettier -w -u .[27m
+[K[A[12C[27my[27ma[27mr[27mn[27m [27mp[27mr[27me[27mt[27mt[27mi[27me[27mr[27m [27m-[27mw[27m [27m-[27mu[27m [27m.[1B[K[?1l>[?2004l
+]697;PreExec]2;yarn prettier -w -u .]1;yarn[2K[1G[1myarn run v1.22.17[22m
+[2K[1G[2m$ /Users/franjsalvador/code/pinia-daybook/node_modules/.bin/prettier -w -u .[22m
+.eslintrc[2K[1G[90m.eslintrc[39m 48ms
+.prettierrc[2K[1G[90m.prettierrc[39m 26ms
+.vscode/extensions.json[2K[1G[90m.vscode/extensions.json[39m 2ms
+.vscode/settings.json[2K[1G[90m.vscode/settings.json[39m 3ms
+commitlint.config.js[2K[1G[90mcommitlint.config.js[39m 10ms
+components.d.ts[2K[1G[90mcomponents.d.ts[39m 319ms
+index.html[2K[1G[90mindex.html[39m 36ms
+package.json[2K[1G[90mpackage.json[39m 6ms
+postcss.config.js[2K[1G[90mpostcss.config.js[39m 4ms
+README.md[2K[1G[90mREADME.md[39m 47ms
+src/App.vue[2K[1G[90msrc/App.vue[39m 4ms
+src/components/DaybookEntryList.vue[2K[1G[90msrc/components/DaybookEntryList.vue[39m 70ms
+src/components/DaybookNavbar.vue[2K[1G[90msrc/components/DaybookNavbar.vue[39m 7ms
+src/env.d.ts[2K[1G[90msrc/env.d.ts[39m 5ms
+src/index.css[2K[1G[90msrc/index.css[39m 2ms
+src/layouts/DayBookLayout.vue[2K[1G[90msrc/layouts/DayBookLayout.vue[39m 26ms
+src/main.ts[2K[1G[90msrc/main.ts[39m 9ms
+src/router/index.ts[2K[1G[90msrc/router/index.ts[39m 7ms
+src/store/index.ts[2K[1G[90msrc/store/index.ts[39m 4ms
+src/views/NoEntrySelected.vue[2K[1G[90msrc/views/NoEntrySelected.vue[39m 2ms
+tailwind.config.js[2K[1G[90mtailwind.config.js[39m 9ms
+tsconfig.json[2K[1G[90mtsconfig.json[39m 4ms
+tsconfig.node.json[2K[1G[90mtsconfig.node.json[39m 2ms
+vite.config.ts[2K[1G[90mvite.config.ts[39m 8ms
+[2K[1G✨  Done in 1.39s.
+[1m[7m%[27m[1m[0m                                                                                                       ]7;file://MBP-de-Fran.lan/Users/franjsalvador/code/pinia-daybook]2;franjsalvador@MBP-de-Fran]1;..pinia-daybook]7;file://MBP-de-Fran.lan/Users/franjsalvador/code/pinia-daybook]697;SSH=0]697;Docker=0]697;Dir=/Users/franjsalvador/code/pinia-daybook]697;Shell=zsh]697;PID=45256]697;SessionId=7DF47F79-588D-49E5-917F-F2D397CDCF7A]697;ExitCode=0]697;TTY=/dev/ttys005]697;Log=]697;ZshAutosuggestionColor=]697;Hostname=franjsalvador@MBP-de-Fran.lan[0m[27m[24m[J]697;StartPrompt
+[37m[14:56:06][00m [31mfranjsalvador[00m ➜ [35m~/code/pinia-daybook[00m ➜ [32mmain [31m✗[00m[00m 
+[33m>[00m ]697;EndPrompt]697;NewCmd[K[74C]697;StartPrompt[1A[37m[[33mbcbb4be[37m] [31m[00m 14:56[1B]697;EndPrompt[90D[?1h=[?2004hyarn prettier -w -u .
+[K[A[33C[16Drun lint:script [1B[K[A[32C[?1l>[?2004l[1B]697;PreExec]2;yarn run lint:script]1;yarn[2K[1G[1myarn run v1.22.17[22m
+[2K[1G[2m$ eslint --ext .ts,vue --ignore-path .gitignore .[22m
+[2K[1G✨  Done in 2.39s.
+[1m[7m%[27m[1m[0m                                                                                                       ]7;file://MBP-de-Fran.lan/Users/franjsalvador/code/pinia-daybook]2;franjsalvador@MBP-de-Fran]1;..pinia-daybook]7;file://MBP-de-Fran.lan/Users/franjsalvador/code/pinia-daybook]697;SSH=0]697;Docker=0]697;Dir=/Users/franjsalvador/code/pinia-daybook]697;Shell=zsh]697;PID=45256]697;SessionId=7DF47F79-588D-49E5-917F-F2D397CDCF7A]697;ExitCode=0]697;TTY=/dev/ttys005]697;Log=]697;ZshAutosuggestionColor=]697;Hostname=franjsalvador@MBP-de-Fran.lan[0m[27m[24m[J]697;StartPrompt
+[37m[14:56:17][00m [31mfranjsalvador[00m ➜ [35m~/code/pinia-daybook[00m ➜ [32mmain [31m✗[00m[00m 
+[33m>[00m ]697;EndPrompt]697;NewCmd[K[74C]697;StartPrompt[1A[37m[[33mbcbb4be[37m] [31m[00m 14:56[1B]697;EndPrompt[90D[?1h=[?2004h

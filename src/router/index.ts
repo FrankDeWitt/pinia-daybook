@@ -4,21 +4,20 @@ const routes = [
   {
     name: 'home',
     path: '/',
-    component: () => import(
-      '@/layouts/DayBookLayout.vue'
-    ),
+    component: () => import('@/layouts/DayBookLayout.vue'),
     children: [
       {
         name: 'no-entry',
         path: '',
-        component: () => import(
-          /* webpackChunkName: "NoEntrySelected" */
-          '@/views/NoEntrySelected.vue'
-        ),
-      }
+        component: () =>
+          import(
+            /* webpackChunkName: "NoEntrySelected" */
+            '@/views/NoEntrySelected.vue'
+          ),
+      },
     ],
   },
-];
+]
 
 const router = createRouter({
   history: createWebHistory(),
