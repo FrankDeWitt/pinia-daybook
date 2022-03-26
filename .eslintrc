@@ -11,9 +11,6 @@
     "@vue/typescript/recommended",
     // Add under other rules
     "@vue/prettier"
-    // "@vue/prettier/@typescript-eslint"
-    // "stylelint-config-recommended",
-    // "stylelint-config-standard"
   ],
   "parserOptions": {
     "ecmaVersion": 2021
